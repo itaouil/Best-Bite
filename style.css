@@ -1,0 +1,106 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Header */
+.header {
+	height: 130px;
+	font-family: "Arvo", sans-serif;
+	background-color: #fff;
+}
+
+.header h1 {
+	color: #333;
+	font-size: 33px;
+	font-weight: 400;
+	float: left;
+	position: relative;
+	top: 20px;
+}
+
+.header .container {
+	max-width: 980px;
+}
+
+nav {
+	float: right;
+	position: relative;
+	top: 50px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	padding: 10px 20px;
+	background-color: #fff;
+	border-radius: 6px;
+	color: rgba(216,25,47,1);
+	border: 1px solid rgba(216,25,47,1);
+	margin-left: 20px;
+}
+
+li a {
+	text-decoration: none;
+	font-size: 15px;
+	color: rgba(216,25,47,1);
+}
+
+li a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.active {
+	background-color: rgba(216,25,47,1);
+}
+
+.active a {
+	color: #fff;
+}
+
+container:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* Jumbotron */
+.jumbotron {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+}
+
+.jumbotron .container {
+	position: relative;
+	left: 50px;
+	top: 50px;
+}
+
+.jumbotron h4 {
+	font-family: "Arvo", sans-serif;
+	color: #fff;
+	font-size: 60px;
+}
+
+.jumbotron h4:nth-child(2) {
+	position: relative;
+	left: 16px;
+}
+
+
+.jumbotron h4:nth-child(3) {
+	position: relative;
+	left: 42px;
+}
+
+
+/* Question */
+
